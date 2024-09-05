@@ -1,6 +1,14 @@
+# Experimenting with GTFS data
 
+Currently this repo is tuned to utilize Poznań ZTM data.
 
-## Źródła danych
+```
+make update
+make -j32 mkdata
+make show
+```
+
+## Data sources
 
 https://mkuran.pl/gtfs/
 
